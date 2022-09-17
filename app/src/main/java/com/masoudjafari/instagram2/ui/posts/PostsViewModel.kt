@@ -55,7 +55,7 @@ class PostsViewModel constructor(private val repository: Repository) : ViewModel
     }
 
     init {
-        getPosts("17841410673652575", "business_discovery.username(programmer.me){followers_count,media_count,media{comments_count,like_count,media_url}}", getToken())
+        getPosts("65456135165212", "business_discovery.username(programmer.me){followers_count,media_count,media{comments_count,like_count,media_url}}", getToken())
     }
 
 }
